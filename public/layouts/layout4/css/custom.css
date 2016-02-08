@@ -1,0 +1,46 @@
+#step-1 {
+    position:absolute;
+    top: 100px;
+}
+
+.fc-toolbar {
+    display: none;
+}
+
+#calendarioUI {
+    display:inline;
+}
+
+ul.thumbnails.image_picker_selector {
+    width: 100%!important;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%!important;
+}
+ul.thumbnails.image_picker_selector li {
+    width: 24%!important;
+}
+
+ul.thumbnails.image_picker_selector li {
+    margin: 0px!important;
+    margin-right: 1%!important;
+    float: left;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail {
+    padding: 6px;
+    border: none!important;
+    -moz-user-select: none;
+}
+
+@media (max-width: 600px) {
+    ul.thumbnails.image_picker_selector li {
+        width: 48%!important;
+    }
+
+    ul.thumbnails.image_picker_selector li {
+        margin-right: 1%!important;
+    }
+
+}
